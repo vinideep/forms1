@@ -1,0 +1,51 @@
+body{
+  background-color: ivory;
+}
+div { 
+margin-left: 25%;
+box-sizing: border-box; 
+width: 50%; 
+border: 1px solid black; 
+border-radius: 10px;
+float: left; 
+align-content: center; 
+align-items: center;
+} 
+.design{
+  background-color: lightcoral;
+}
+  
+form { 
+ margin: auto; 
+ width: 900px;
+ padding-left: 50px;
+ text-align: inherit;
+ text-align: left;
+ display: inline-flexbox;
+ background-color: lavenderblush;
+ border: 2px black;
+ border-radius: 5%;
+ height: 100vh;
+ position: absolute;
+} 
+.send{
+  background-color: rgb(172, 172, 172);
+  box-sizing: border-box;
+  padding-right: 40px;
+  text-align: right;
+  font-size: 20px;
+  border-radius: 20px;
+  box-shadow:20px black ;
+}
+.reset{
+  background-color: rgb(172, 172, 172);
+  box-sizing: border-box;
+  padding-right: 40px;
+  text-align: right;
+  font-size: 20px;
+  border-radius: 20px;
+  box-shadow:20px black ;
+}
+.reset:hover, .send:hover{
+  background-color: rgb(153, 243, 62);
+}
